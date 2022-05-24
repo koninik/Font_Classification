@@ -1,6 +1,6 @@
 # Font Classification
 
-Official PyTorch implementation of "Investigating the Effect of using Synthetic and Semi-synthetic Images for Historical Document Font Classification"
+Official PyTorch implementation of ["Investigating the Effect of using Synthetic and Semi-synthetic Images for Historical Document Font Classification"](https://link.springer.com/chapter/10.1007/978-3-031-06555-2_41)
 
 Font classification using pre-trained CNNs.
 
@@ -40,7 +40,7 @@ python test_classifier.py --model resnet50 --path_to_model /path/to/trained/mode
 
 ### Citation
 
-If you find this useful in your research, consider citing our work published in the Document Analysis Systems, DAS 2022:
+If you find the code or data useful in your research, consider citing our work published in the Document Analysis Systems, DAS 2022:
 
 ```
 @inproceedings{Nikolaidou2022InvestigatingTE,
