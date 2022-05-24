@@ -40,7 +40,7 @@ python test_classifier.py --model resnet50 --path_to_model /path/to/trained/mode
 
 ### Citation
 
-If you find the code or data useful in your research, consider citing our work published in the Document Analysis Systems, DAS 2022:
+If you find the code or data useful in your research, consider citing our work published in the 15th IAPR International Workshop on Document Analysis Systems, DAS 2022:
 
 ```
 @inproceedings{Nikolaidou2022InvestigatingTE,
