@@ -4,6 +4,12 @@ Official PyTorch implementation of "Investigating the Effect of using Synthetic 
 
 Font classification using pre-trained CNNs.
 
+The classification is made on extracted patches. The pre-processing steps are: removing black borders around the document pages, cropping the image around the text and then creating the patches. 
+
+Semi-synthetic generated images using DocCreator and Synthetic images using OpenGAN.
+
+The generated data (patches, synthetic, and semi-synthetic) can be found in Zenodo: (link to be shared soon)
+
 The dataset class takes images and labels from .csv file in the following format [image_name, label]
 
 ### Models
@@ -32,3 +38,15 @@ python classifier_font_combined.py --batch_size 32 --num_classes 10 --train_dir 
 python test_classifier.py --model resnet50 --path_to_model /path/to/trained/model --batch_size 64 --num_classes 10 --image_dir /path/to/images/ --csv_file /path/to/csv/file.csv
 ```
 
+### Citation
+
+If you find this useful in your research, consider citing our work published in the Document Analysis Systems, DAS 2022:
+
+```
+@inproceedings{Nikolaidou2022InvestigatingTE,
+  title={Investigating the Effect of Using Synthetic and Semi-synthetic Images for Historical Document Font Classification},
+  author={Konstantina Nikolaidou and Richa Upadhyay and Mathias Seuret and Marcus Liwicki},
+  booktitle={DAS},
+  year={2022}
+}
+```
